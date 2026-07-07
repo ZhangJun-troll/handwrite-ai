@@ -1,0 +1,15 @@
+{
+  "appId": "com.zhangjun.handwriteai",
+  "appName": "HandWrite AI",
+  "webDir": ".",
+  "server": {
+    "url": "https://handwrite-ai.pages.dev",
+    "cleartext": false
+  },
+  "ios": {
+    "scheme": "HandWrite AI",
+    "contentInset": "automatic",
+    "preferredContentMode": "mobile",
+    "limitsNavigationsToAppBoundDomains": false
+  }
+}
