@@ -16,6 +16,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Prepare web assets
+        run: |
+          mkdir -p www
+          cp index.html www/
+
       - name: Add iOS platform
         run: npx cap add ios
 
