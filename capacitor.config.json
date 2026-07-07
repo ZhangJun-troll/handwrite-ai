@@ -1,7 +1,7 @@
 {
   "appId": "com.zhangjun.handwriteai",
   "appName": "HandWrite AI",
-  "webDir": ".",
+  "webDir": "www",
   "server": {
     "url": "https://handwrite-ai.pages.dev",
     "cleartext": false
